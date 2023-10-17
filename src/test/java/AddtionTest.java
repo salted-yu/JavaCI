@@ -12,9 +12,10 @@ public class AddtionTest {
     }
 
     @Test
-    public void testfloatadd(){
-        assertEquals(1.1, a.doubleadd(1, 0.1));
-        assertEquals(1.5, a.doubleadd(0.2, 1.3));
+    public void testdoubleadd(){
+        double delta = 0.0001;
+        assertEquals(1.1, a.doubleadd(1, 0.1), delta);
+        assertEquals(1.5, a.doubleadd(0.2, 1.3), delta);
 
     }
 }
