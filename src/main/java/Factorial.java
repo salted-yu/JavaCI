@@ -6,4 +6,8 @@ public class Factorial {
         }
         return r;
     }
+
+    public static long add(int a, int b){
+        return a+b;
+    }
 }
