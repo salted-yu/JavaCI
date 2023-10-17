@@ -7,7 +7,7 @@ public class AddtionTest {
 
     @Test
     public void testintadd(){
-        assertEquals(8, a.intadd(1, 7));
+        assertEquals(10, a.intadd(1, 7));
         assertEquals(10, a.intadd(5, 5));
     }
 
